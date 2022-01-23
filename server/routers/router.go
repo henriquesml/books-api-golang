@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	controllers "github.com/henriquesml/go-api/controller"
+	controllers "github.com/henriquesml/go-api/controllers"
 )
 
 func ConfigRoutes(router *gin.Engine) *gin.Engine {
